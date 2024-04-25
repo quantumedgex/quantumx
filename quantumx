@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>QuantumEdge</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>QuantumEdge</h1>
+  <p>QuantumEdge: A cutting-edge fusion of quantum technology and sleek design. With unparalleled processing power and quantum encryption, it connects seamlessly across dimensions of cyberspace. Its holographic interface and neural-link capabilities redefine user interaction, making it the pinnacle of futuristic communication and data security.</p>
+</div>
+
+<div class="navbar">
+  <a href="#">https://www.facebook.com/kairuu.14?mibextid=ZbWKwL</a>
+  <a href="#">https://www.instagram.com/markuhari?igsh=NnA2eDd5MDFwaDUz</a>
+  <a href="#">09053330477</a>
+  <a href="#" class="right">quantumedgexx@gmail.com</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div class="kalbs.jpg" style="height:200px;">Image</div>
+    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    <h3>More Text</h3>
+    <p>Lorem ipsum dolor sit ame.</p>
+    <div class="iphone.jpg" style="height:60px;">Image</div><br>
+    <div class="iphone.jpg" style="height:60px;">Image</div><br>
+    <div class="iphone.jpg" style="height:60px;">Image</div>
+  </div>
+  <div class="main">
+    <h2>QUANTUM X(10)</h2>
+    <h5>The "QuantumEdge" phone represents a leap forward in mobile technology, integrating principles of quantum mechanics into its design. Quantum computing enables unprecedented processing speeds and encryption capabilities, ensuring enhanced security and efficiency. Its name suggests the device's ability to push the boundaries of traditional computing, offering users a cutting-edge experience at the forefront of technological innovation, May 2, 2024</h5>
+    <img src="x.png" alt="x" width="1000" height="550">
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h2>QUANTUM XX(20)</h2>
+    <h5>title description, May 02, 2024</h5>
+    <img src="xx.jpg" alt="xx" width="1000" height="550">
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <h2>QUANTUM XX's(20's)</h2>
+    <h5>title description, May 02, 2024</h5>
+    <img src="XX's.png" alt="XX's" width="1000" height="550">
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+
+</body>
+</html>
